@@ -1,0 +1,48 @@
+.start {
+    border-top: 5px solid rgb(42, 42, 228);
+    border-left: 5px solid rgb(42, 42, 228);
+    padding: 3rem;
+}
+
+#topic {
+    color: red;
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#border {
+    border-left: 20px solid rgb(42, 42, 228);
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(242, 242, 248);
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(10, 10, 10);
+    width: 400px;
+    background-color: rgb(242, 242, 248);
+    text-align: center;
+    font-weight: 800;
+}
+
+input[type=text]:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button {
+    height: 30px;
+    text-align: center;
+}
+
+#hr {
+    border: 1px solid black;
+}
+
+.another_container {
+    border: 2px solid rgb(174, 174, 211);
+}
